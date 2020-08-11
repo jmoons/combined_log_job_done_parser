@@ -1,7 +1,7 @@
 GREP_STRING                       = "done: "
 GREPPED_OUTPUT_REGULAR_EXPRESSION = /([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]*Z) [a-zA-Z0-9\s\S]+ ([a-zA-Z::]+::[a-zA-Z]+) JID-([a-zA-Z0-9]+)[a-zA-Z0-9\s\S]+ ([0-9]*.[0-9]+) sec/
 
-CSV_COLUMN_HEADER_LABELS          = "DateTime,Job Name,Job ID,Job Duration,blank,Unique Job,Min,Max,Average,Job Count"
+CSV_COLUMN_HEADER_LABELS          = "DateTime,Job Name,Job ID,Job Duration,blank,Unique Job,Min (s),Max (s),Average (s),Job Count"
 
 # Grab the raw log file
 input_log_file = ARGV[0]
