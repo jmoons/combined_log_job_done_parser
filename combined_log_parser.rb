@@ -75,7 +75,7 @@ class CombinedLogParser
 
   def output_spreadsheet_formula
 
-    (0 ... NUMBER_OF_FORMULA_ROWS ).each do | iteration |
+    ( 0 ... NUMBER_OF_FORMULA_ROWS ).each do | iteration |
 
       adjusted_row_number = iteration + ROW_BELOW_HEADER
       formula_row         = ""
